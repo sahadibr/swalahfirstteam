@@ -110,7 +110,7 @@
 
 <script>
     // Ningalude puthiya Google Script URL njan ivide set cheythittundu (Line 115)
-    const SCRIPT_URL = const SCRIPT_URL = const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz6bMwqC1noft4qiCFrpoqHC9BJiK5ypZwcu_R-YjEVcv8YSBSw_F-wWcLgmq3lAiQVHA/exec"; https://script.google.com/macros/s/AKfycbz6bMwqC1noft4qiCFrpoqHC9BJiK5ypZwcu_R-YjEVcv8YSBSw_F-wWcLgmq3lAiQVHA/exec
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyFDsEZf__dw9VSVrXsCNk6sKIFIsLNvIIyJICEq6To7soYWhhAKd6jzl8vSHEgAUUB/exec";
 
     let isAdmin = false;
     const team = [
@@ -174,7 +174,9 @@
         
         btn.innerText = "Save to Cloud";
         btn.disabled = false;
-        if (viewedMemberId) viewMemberReport(viewedMemberId);
+if (viewedMemberId) viewMemberReport(viewedMemberId);
+}
+
 function tryLogin() {
         const u = document.getElementById('usernameInput').value;
         const p = document.getElementById('passwordInput').value;
